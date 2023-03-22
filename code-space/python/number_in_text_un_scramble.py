@@ -1,10 +1,11 @@
+# input must be one, two, three, four, five, six, seven, eight, nine, ten. and must not include nothing else other than one-to-ten.
+# put those number one-to-ten word into text as input
+
 # scrambled from oneninetentwosixseven
 # expecting array similar to 
 # [one, nine, ten, two, six, seven]
 # OR
 # [1, 9, 10, 2, 6, 7]
-# input must be one, two, three, four, five, six, seven, eight, nine, ten. and must not include nothing else other than one-to-ten.
-# put those number one-to-ten word into text as input
 input = "nnsoitnexniteeeonvswe"
 
 text_number_list = []
