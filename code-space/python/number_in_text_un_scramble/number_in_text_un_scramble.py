@@ -1,4 +1,11 @@
+# input must be one, two, three, four, five, six, seven, eight, nine, ten. and must not include nothing else other than one-to-ten.
+# put those number one-to-ten word into text as input
+
 # scrambled from oneninetentwosixseven
+# expecting array similar to 
+# [one, nine, ten, two, six, seven]
+# OR
+# [1, 9, 10, 2, 6, 7]
 input = "nnsoitnexniteeeonvswe"
 
 text_number_list = []
@@ -11,7 +18,11 @@ while(len(input)>=3):
     input = input.replace("o", "", 1)
     text_number_list.append("two")
     number_list.append(2)
+<<<<<<< HEAD:code-space/python/number_in_text_un_scramble/number_in_text_un_scramble.py
    
+=======
+  
+>>>>>>> 3e1a44c1b3b7cdd674cce504c28ec1464210611d:code-space/python/number_in_text_un_scramble.py
   elif ("u" in input):
     input = input.replace("f", "", 1)
     input = input.replace("o", "", 1)
