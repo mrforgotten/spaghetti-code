@@ -11,8 +11,7 @@ while(len(input)>=3):
     input = input.replace("o", "", 1)
     text_number_list.append("two")
     number_list.append(2)
-  
-  
+   
   elif ("u" in input):
     input = input.replace("f", "", 1)
     input = input.replace("o", "", 1)
