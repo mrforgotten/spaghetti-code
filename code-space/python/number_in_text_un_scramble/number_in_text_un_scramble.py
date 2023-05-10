@@ -18,11 +18,7 @@ while(len(input)>=3):
     input = input.replace("o", "", 1)
     text_number_list.append("two")
     number_list.append(2)
-<<<<<<< HEAD:code-space/python/number_in_text_un_scramble/number_in_text_un_scramble.py
    
-=======
-  
->>>>>>> 3e1a44c1b3b7cdd674cce504c28ec1464210611d:code-space/python/number_in_text_un_scramble.py
   elif ("u" in input):
     input = input.replace("f", "", 1)
     input = input.replace("o", "", 1)
