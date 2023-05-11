@@ -5,6 +5,11 @@ import (
 	"strings"
 )
 
+// scrambled from oneninetentwosixseven
+// expecting array similar to
+// [one, nine, ten, two, six, seven]
+// OR
+// [1, 9, 10, 2, 6, 7]
 func main() {
 	fmt.Println("distributive multiplication")
 	var d Distributive
@@ -17,7 +22,6 @@ func main() {
 }
 
 type Distributive struct {
-	// scrambled from oneninetentwosixseven
 	input            string
 	text_number_list []string
 	number_list      []int
