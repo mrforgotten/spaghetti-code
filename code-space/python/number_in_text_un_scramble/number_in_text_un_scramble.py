@@ -82,14 +82,14 @@ while(len(input)>=3):
     text_number_list.append("seven")
     number_list.append(7)
   
-  elif ("nine" in input ):
+  elif (("n" in input) and ("i" in input) and ("e" in input) ):
     input = input.replace("n", "", 2)
     input = input.replace("i", "", 1)
     input = input.replace("e", "", 1)
     text_number_list.append("nine")
     number_list.append(9)
   
-  elif ("ten" in input ):
+  elif (("t" in input) and ("e" in input) and ("n" in input)):
     input = input.replace("t", "", 1)
     input = input.replace("e", "", 1)
     input = input.replace("n", "", 1)
