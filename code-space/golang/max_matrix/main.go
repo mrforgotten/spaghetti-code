@@ -39,7 +39,7 @@ func flippingMatrix(matrix [][]int32) int32 {
 15 78 101 43
 62 98 114 108
 
-expect output 414
+expect output 414 which is the sum of 119, 125, 101, 114
 */
 
 /**
@@ -48,7 +48,7 @@ expect output 414
 100 96 34 85
 75 15 28 112
 
-expect output 488
+expect output 488 which is the sum of 128, 138, 100, 112
 */
 
 func main() {
